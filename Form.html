@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <p>This is a form</p>
+    <form action="" method="=post">
+        <label>Username</label><br />
+        <input type="text" name="username" placeholder="Enter your Username" required="required" /><br />
+        <label>Email</label><br />
+        <input type="email" name="email" placeholder="Enter your Email" required="required" /><br />  
+        <label>Password</label><br />
+        <input type="password" name="password" placeholder="Enter your Password" required="required"
+         /> <br />
+         <!--The select tag creates a dropdown of options-->
+         <label>Select your account type</label><br />
+         <select>
+            <option>Premium</option>
+            <option>Gold</option>
+            <option>Silver</option>
+         </select><br />
+         <input type="radio" name="gender" id="male" value="male" />
+         <label for="male">male</label><br />
+
+         <input type="radio" name="gender" id="female" value="male" />
+         <label for="male">female</label><br />
+
+         <input type="radio" name="gender" id="none" />
+         <label for="none">I think I am the owner</label><br />
+
+         <!--Checkboxes-->
+         <p>What means of transport do you prefer</p>
+         <input type="checkbox" name="vehicle1" id="vehicle1" value="Porsche" />
+         <label for="vehicle1">I have a Porsche</label><br />
+
+         <input type="checkbox" name="vehicle2" id="vehicle2" value="Powerbike" />
+         <label for="vehicle2">I have a Powerbike</label><br />
+
+         <input type="checkbox" name="vehicle3" id="vehicle3" value="yacht" />
+         <label for="vehicle3">I have a yacht</label><br />
+         <!--Range inputs in html-->
+         <label for="salary">Choose your salary range</label>
+         <input
+         type="range" name="salary" id="salary" min="20000" max="5000000" step="200" value="26000" />
+         <output class="output-price" for="salary"></output><br />
+         <!--custom js to make it work and show output-->
+         <script>
+            const salary = document.querySelector("#salary");
+            const output = document.querySelector(".output-price");
+            output.textContent = salary.value;
+            
+            salary.addEventListener("input", () => {
+                output.textContent = salary.value;
+            });
+         </script>
+
+         <!--For Date-->
+         <input type="datetime-local" name="datetime" id="datetime" /><br />
+
+         <!--For file input-->
+         <input type="file" name="file" id="file-id" /><br />
+        <input type="submit" value="submit" />
+    </form>
+</body>
+</html>

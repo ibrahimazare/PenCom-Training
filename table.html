@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+</head>
+<body>
+    <!--We creat a table by using the html5 <table> tag.-->
+        <p>
+            This is a table
+        </p>
+        <!--Creatss a table
+        <tr> stands for table row
+            <th> stands for table header
+                <td> stands for table data-->
+        <table>
+            <tr>
+                <th>Vehicles</th>
+                <th>Currencies</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <th>Porche</th>
+                <th>Naira</th>
+                <th>Ghana</th>
+            </tr>
+            <tr>
+                <th>Hyundai</th>
+                <th>Cedis</th>
+                <th>United Kingdom</th>
+            </tr>
+        </table>
+        <p>This is another table</p>
+        <br />
+        <!--other table elements include table head (thead) table body (tbody) and table footer(tfooter)
+        they are used to group elements together take for instance below-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Income</th>
+                    <th>Expenses</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>October</td>
+                        <td>$500</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>October</td>
+                        <td>$300</td>
+                        <td>$200</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>$800</td>
+                        <td>$300</td>
+                    </tr>
+                </tfoot>
+        </table>
+        <!--Simple css styles just so our table looks good-->
+        <style>
+            th,
+            td,
+            table {
+                border: 1px solid black;
+            }
+        </style>
+</body>
+</html>
