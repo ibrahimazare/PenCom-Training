@@ -1,0 +1,196 @@
+/* Intro to CSS
+
+In CSS we have things called selectors.
+
+What are selectors?
+.example {
+
+} = <element class="example"
+/* For proper styling ethics 
+Always set your padding and margin to 0 within the body tag
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*
+We have different measurement options
+px - pixels
+vh - viewport height
+rem - root element font size
+*/
+
+header{
+    background-color: none;
+width: 100%;
+height: 65px;
+}
+/* We can add a selector on the same line with another
+with another so it becomes a child of the parent class */
+header nav {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+header nav .right-section {
+    width: 250;
+    display: flex;
+    height: auto;
+    /* added this */
+    justify-content: center;
+    align-items: center;
+}
+header nav .right-section a {
+    margin-left: 10px;
+    color:black;
+}
+nav .right-section .menu-icon {
+    background-image: url("../img/dots.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .right-section img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35;
+}
+
+main{
+    background-color: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/* styling the input container */
+main .input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgba(161, 160, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-input .input-container input{
+    border-radius: 45%;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+/* pseudo class/selector it is proceed 
+by semicolons */
+
+main .input-container:hover{
+    box-shadow: 0 1px 6px rgb(29, 27, 27);
+    border-color: rgb(160, 112, 112);
+}
+
+/* Adding our search icon to input container */
+
+main .input-container .search-icon {
+    background-image: url("../img/mic.png");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: contain;
+    padding-right: 3rem;
+}
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+/* display in-line block to display 
+buttons horizontally */
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons div button{
+    height: 36px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    color: rgb(160, 112, 112);
+    border-radius: 5px;
+    padding: 0 16px;
+}
+main .main-buttons div button:hover{
+    border: 1px solid rgb(160, 112, 112);
+    color: black;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    border-top: -2rem solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer ul{
+    display: flex;
+    margin: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+footer ul li {
+    margin: 10px;
+    color: gray;
+}
+footer .footer-left-side{
+    justify-self: left;
+}
+footer .footer-left-side:hover{
+    justify-self: left;
+    text-decoration: underline;
+}
+footer .footer-center:hover{
+    text-decoration: underline;
+}
+footer .footer-center{
+    justify-self: center;
+}
+
+footer .footer-right-side{
+    justify-self: right;
+}
+footer .footer-right-side:hover{
+    justify-self: right;
+    text-decoration: underline;
+}

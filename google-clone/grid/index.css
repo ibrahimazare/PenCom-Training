@@ -1,0 +1,12 @@
+/* --sample-color
+represents a variable name, which we assign a color to */
+/* This is used to import css styl    */
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+:root {
+    --our-purple: rgb(102, 62, 62);
+    --font-sm: 3rem;
+    --product-fonts:'Basic', sans-serif;
+    --brand-fonts:'Fasthand', cursive;
+    --font-lm: 2rem;
+}
