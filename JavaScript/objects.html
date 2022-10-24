@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <!--Objects in JavaScript-->
+    <p id="example"></p>
+    <p id="example2"></p>
+    <script>
+        const SamsungModel = {
+            type: "Touchscreen",
+            model: "S20",
+            color: "Gray"
+        };
+        // . is an accessor in javascript
+        // Display some data from the object
+        document.getElementById("example").innerHTML = "The phone is " + SamsungModel.type;
+
+        const person = {
+            name: "Mark",
+            skin: "white",
+            age: 30,
+            ShoeColor: "black",
+            ugly: true
+        };
+        document.getElementById("example2").innerHTML = person.name + "  is " + person.skin + " in complexion"
+    </script>
+</body>
+</html>

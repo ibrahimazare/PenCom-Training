@@ -1,0 +1,36 @@
+/* Stylesheet */
+/* Universal select (*) */
+
+:root {
+    /* Roote Colors */
+    --white: whitesmoke;
+    --green: rgb(77, 205, 77);
+    --font-lg: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+    color: var(--green);
+}
+.Game {
+    display: flex;
+    flex-direction: column;
+    /* viewport Height */
+    height: 100vh;
+    /* viewport width */
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    position: absolute;
+    top: 0;
+    font-size: var(--font-lg);
+}
+.score {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}

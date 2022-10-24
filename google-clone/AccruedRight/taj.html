@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="switcher">
+        <ul class="animated slideInTop" style="position: relative;">
+            <li class="active">
+                <a>Log in</a>
+            </li>
+            <img alt="logo" class="logo hidden-xs" src="assets/img/bank-images/taj-bank-logo.svg" style="position: absolute; right: 10px; top: 10px;">
+
+            
+        </ul>
+    </div>
+
+    <section class="tint" id="onboarding">
+        <div class="background">
+            <div class="col-xs-12 col-md-7 col-sm-12 left-section">
+                <div class="outer">
+                    <div class="middle">
+                        <img alt="logo" class="logo  hidden-lg hidden-xl hidden-sm hidden-md" src="assets/img/bank-images/taj-bank-logo.png">
+    
+                        <div class="message">
+                            <h1>Welcome to </h1>
+                            <h1 class="fw-sbold">TAJBANK</h1>
+                            <span>Login to access your profile</span>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                
+                
+            </div>
+            <div class="col-xs-12 col-md-5 col-sm-12 right-section">
+                <div class="outer">
+                    <div class="middle">
+                        <div class="">
+    
+                            <div class="card switcher-container onboarding-card bg-primary">
+                                <div class="switcher">
+                                    <ul class="animated slideInTop" style="position: relative;">
+                                        <li class="active">
+                                            <a>Log in</a>
+                                        </li>
+                                        <img alt="logo" class="logo hidden-xs" src="assets/img/bank-images/taj-bank-logo.svg" style="position: absolute; right: 10px; top: 10px;">
+    
+                                        
+                                    </ul>
+                                </div>
+                                <div class="switch-content">
+                                    
+                                    <div class="slide-container">
+                                        
+                                        <fbn-login-view><div class="login-view welcome-message slide animated fadeInLeft">
+    
+      <div class="slide-container">
+    
+        <fbn-login-screen><div class="slide animated fadeInLeft">
+      <div class="entry">
+        <div class="entry-header">
+          <h3 class="no-mobile">Welcome back!</h3>
+          <h4 class="no-mobile">Log in with your details</h4>
+        </div>
+    
+        <div class="entry-body">
+          <form autocomplete="off" class="login-form animated fadeIn ng-untouched ng-pristine ng-invalid" novalidate="">
+            <div class="">
+    
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="username" name="Username" placeholder="Username" required="" type="text">
+              </div>
+              <div class="input-cont addon input icon inner-addon left-addon right-ico">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <g id="Icon / Lock">
+                      <g id="lock-orientation">
+                        <path clip-rule="evenodd" d="M 7.5 0C 10.0566 0 12.293 1.66211 13.1367 4.09961C 13.4141 4.90039 13.0059 5.78125 12.2266 6.06445C 11.4453 6.34961 10.5879 5.93164 10.3105 5.13086C 9.88672 3.90625 8.77148 3.07617 7.5 3.07617C 5.84375 3.07617 4.5 4.45508 4.5 6.1543L 4.5 9.23047L 13.5 9.23047C 14.3281 9.23047 15 9.91992 15 10.7695L 15 18.4609C 15 19.3105 14.3281 20 13.5 20L 1.5 20C 0.671875 20 0 19.3105 0 18.4609L 0 10.7695C 0 9.91992 0.671875 9.23047 1.5 9.23047L 1.5 6.1543C 1.5 2.75586 4.18555 0 7.5 0Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape" transform="translate(3 0)"></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <!----><img class="svg-icon right-icon animated fadeIn" src="assets/icons/eye.svg" style="cursor: pointer; padding-top: 5px">
+                <!---->
+                
+                
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="password" name="Password" placeholder="Password" required="" type="password">
+              </div>
+    
+              <p class="pull-right color-primary fw-sbold action-right forgot-password no-mobile">
+                <a>
+                  Forgot password or username?
+                </a>
+              </p>
+    
+            </div>
+          </form>
+        </div>
+    
+        <div class="entry-footer">
+          <div class="login-error-message">
+            <!---->
+          </div>
+          <button class="btn btn-primary btn-block" id="" type="submit">
+            <span>Login</span>
+          </button>
+          <p class="m-t-20 get-account text-center">
+            <span>Don't have an account?</span>
+            <span class="color-primary fw-bold">
+              <a>Sign up</a>
+            </span>
+          </p>
+          <p class="mobile m-t-20 text-center">
+            <span class="color-primary fw-sbold" style="font-weight: bold !important">
+              <a>Forgot password or username?</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    </fbn-login-screen>
+    
+        <fbn-login-set-security><div class="set-security slide animated fadeInLeft opaque">
+    
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Set your security questions to provide more security for your profile</h3>
+        </div>
+    
+        <div class="entry-body">
+          <form autocomplete="off" class="animated fadeIn ng-untouched ng-pristine ng-invalid" novalidate="">
+            <div class="">
+              <div class="input-cont input">
+                <select class="form-control no-icon ng-untouched ng-pristine ng-valid" id="question1" name="question1" title="" type="text">
+                  <option value="0: null">--SELECT QUESTION--</option>
+                  <!----><option value="1: 1">
+                    What is your sister's name?
+                  </option><option value="2: 2">
+                    What was the name of your first pet?
+                  </option><option value="3: 3">
+                    What is the name of your favorite city?
+                  </option>
+                </select>
+              </div>
+              <div class="input-cont input">
+                <input autocomplete="off" class="form-control no-icon ng-untouched ng-pristine ng-invalid" id="answer1" name="answer1" placeholder="Answer" required="" type="text">
+              </div>
+              <hr>
+            </div>
+    
+            <div class="">
+              <div class="input-cont input">
+                <select class="form-control no-icon ng-untouched ng-pristine ng-valid" id="question2" name="question2" title="" type="text">
+                  <option value="0: null">--SELECT QUESTION--</option>
+                  <!----><option value="1: 1">
+                    What is your sister's name?
+                  </option><option value="2: 2">
+                    What was the name of your first pet?
+                  </option><option value="3: 3">
+                    What is the name of your favorite city?
+                  </option>
+                </select>
+              </div>
+              <div class="input-cont input">
+                <input autocomplete="off" class="form-control no-icon ng-untouched ng-pristine ng-invalid" id="answer2" name="answer2" placeholder="Answer" required="" type="text">
+              </div>
+              <hr>
+            </div>
+    
+    
+            <div class="">
+              <div class="input-cont input">
+                <select class="form-control no-icon ng-untouched ng-pristine ng-valid" id="question3" name="question3" title="" type="text">
+                  <option value="0: null">--SELECT QUESTION--</option>
+                  <!----><option value="1: 1">
+                    What is your sister's name?
+                  </option><option value="2: 2">
+                    What was the name of your first pet?
+                  </option><option value="3: 3">
+                    What is the name of your favorite city?
+                  </option>
+                </select>
+              </div>
+              <div class="input-cont input">
+                <input autocomplete="off" class="form-control no-icon ng-untouched ng-pristine ng-invalid" id="answer3" name="answer3" placeholder="Answer" required="" type="text">
+              </div>
+            </div>
+          </form>
+    
+        </div>
+    
+        <div class="entry-footer">
+          <button class="btn btn-primary btn-block" id="" type="submit">
+            <span>Continue</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </fbn-login-set-security>
+        
+        <fbn-change-password _nghost-c2=""><div _ngcontent-c2="" class="set-security slide animated fadeInLeft opaque">
+    
+      <div _ngcontent-c2="" class="entry">
+        <div _ngcontent-c2="" class="entry-header">
+          <h3 _ngcontent-c2="">Change password to provide more security for you profile</h3>
+        </div>
+        <!----><form _ngcontent-c2="" class="onboarding-form overflow-hidden text-center ng-untouched ng-pristine ng-valid" novalidate="">
+          <div _ngcontent-c2="" class="smaller-container animated fadeInLeft">
+            <div _ngcontent-c2="" class="m-b-15">
+              <span _ngcontent-c2="" class="circular-std-black fz-20 red-color">Change Password</span>
+            </div>
+            <div _ngcontent-c2="" class="fz-14 smaller-text-header">
+              <span _ngcontent-c2=""></span>
+            </div>
+            <div _ngcontent-c2="">
+              <app-custom-text-box _ngcontent-c2=""><div class="input-cont left-addon input icon inner-addon">
+        
+    
+        <!---->
+        <!---->
+        <!---->
+        <!----><i class="fa fa-unlock-alt left-icon"></i>
+    
+    
+        
+        <!----><input autocomplete="off" id="new-password" class="form-control ng-untouched ng-pristine ng-invalid" type="password" placeholder="New Password" name="New Password">
+    
+        <!---->
+        <!---->
+    
+        
+        <!---->
+    
+        <!----><a class="input-btn plain">
+            <!----><svg fill="none" height="8" viewBox="0 0 13 8" width="13" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.18169 0C2.54577 0 0 4 0 4C0 4 1.85444 8 6.18169 8C10.5451 8 12.3634 4 12.3634 4C12.3634 4 9.85444 0 6.18169 0ZM6.18169 6.54507C4.76359 6.54507 3.63662 5.4181 3.63662 4C3.63662 2.5819 4.76359 1.45493 6.18169 1.45493C7.59979 1.45493 8.72676 2.5819 8.72676 4C8.72676 5.4181 7.59979 6.54507 6.18169 6.54507Z" fill="#344248" fill-opacity="0.5"></path>
+                <path d="M7.27251 4.00003C7.27251 4.60271 6.78435 5.09087 6.18167 5.09087C5.57898 5.09087 5.09082 4.60271 5.09082 4.00003C5.09082 3.39734 5.57898 2.90918 6.18167 2.90918C6.78435 2.90918 7.27251 3.39734 7.27251 4.00003Z" fill="#344248" fill-opacity="0.5"></path>
+            </svg>
+            <!---->
+        </a>
+    </div>
+    
+    
+    
+    
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!----></app-custom-text-box>
+            </div>
+            <div _ngcontent-c2="">
+              <app-custom-text-box _ngcontent-c2=""><div class="input-cont left-addon input icon inner-addon">
+        
+    
+        <!---->
+        <!---->
+        <!---->
+        <!----><i class="fa fa-unlock-alt left-icon"></i>
+    
+    
+        
+        <!----><input autocomplete="off" id="confirm-password" class="form-control ng-untouched ng-pristine ng-invalid" type="password" placeholder="Confirm Password" name="Password match">
+    
+        <!---->
+        <!---->
+    
+        
+        <!---->
+    
+        <!----><a class="input-btn plain">
+            <!----><svg fill="none" height="8" viewBox="0 0 13 8" width="13" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.18169 0C2.54577 0 0 4 0 4C0 4 1.85444 8 6.18169 8C10.5451 8 12.3634 4 12.3634 4C12.3634 4 9.85444 0 6.18169 0ZM6.18169 6.54507C4.76359 6.54507 3.63662 5.4181 3.63662 4C3.63662 2.5819 4.76359 1.45493 6.18169 1.45493C7.59979 1.45493 8.72676 2.5819 8.72676 4C8.72676 5.4181 7.59979 6.54507 6.18169 6.54507Z" fill="#344248" fill-opacity="0.5"></path>
+                <path d="M7.27251 4.00003C7.27251 4.60271 6.78435 5.09087 6.18167 5.09087C5.57898 5.09087 5.09082 4.60271 5.09082 4.00003C5.09082 3.39734 5.57898 2.90918 6.18167 2.90918C6.78435 2.90918 7.27251 3.39734 7.27251 4.00003Z" fill="#344248" fill-opacity="0.5"></path>
+            </svg>
+            <!---->
+        </a>
+    </div>
+    
+    
+    
+    
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!----></app-custom-text-box>
+            </div>
+            <div _ngcontent-c2="" class="m-b-20 text-left">
+              <!---->
+            </div>
+    
+            <button _ngcontent-c2="" class="btn btn-primary btn-block" id="" type="submit">
+              <span _ngcontent-c2="">Continue</span>
+            </button>
+          </div>
+        </form>
+        <!---->
+        <div _ngcontent-c2="" class="entry-footer">
+    
+        </div>
+      </div>
+    </div>
+    </fbn-change-password>
+    
+      </div>
+    
+    </div>
+    </fbn-login-view>
+                                        
+    
+                                        
+                                        <fbn-onboarding-root><div class="forgot-password-view welcome-message slide animated fadeInLeft opaque">
+    
+        <div class="slide-container">
+    
+            <div class="select-recovery-options slide animated fadeInLeft">
+                <div class="entry">
+                    <div class="entry-header">
+                        <h3>Welcome</h3>
+                        <h4>Let’s get started...</h4>
+                    </div>
+    
+                    <div class="entry-body">
+                        <div>
+                            <div class="select-options">
+                                <div class="icon-box">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="36" version="1.1" viewBox="0 0 36 32" width="36" xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none" id="Canvas">
+                                            <g id="Group 4">
+                                                <g id="Group 3">
+                                                    <g id="bank-line">
+                                                        <path d="M 1.7072 11.8222L 17.8183 2.56667L 33.9294 11.8222C 34.1834 11.9551 34.4788 11.9846 34.754 11.9048C 35.0293 11.8249 35.263 11.6418 35.4064 11.3937C 35.5498 11.1456 35.5918 10.8517 35.5237 10.5733C 35.4555 10.295 35.2824 10.0537 35.0405 9.9L 17.8183 8.4771e-08L 0.596084 9.9C 0.4633 9.96946 0.34594 10.0651 0.251062 10.1811C 0.156185 10.2971 0.0857512 10.431 0.0439987 10.575C 0.00224618 10.7189 -0.0099623 10.8698 0.00810756 11.0185C 0.0261774 11.1673 0.0741524 11.3108 0.149146 11.4406C 0.22414 11.5703 0.324602 11.6836 0.44449 11.7735C 0.564378 11.8634 0.701214 11.9281 0.846765 11.9637C 0.992317 11.9994 1.14358 12.0052 1.29144 11.9809C 1.43931 11.9566 1.58073 11.9026 1.7072 11.8222Z" fill="#E0AD0F" id="Vector" transform="translate(0.181641 0.244141)"></path>
+                                                        <path d="M 0 9.3C 0 9.59469 0.117063 9.8773 0.325437 10.0857C 0.533811 10.2941 0.816426 10.4111 1.11111 10.4111L 30 10.4111C 30.2947 10.4111 30.5773 10.2941 30.7857 10.0857C 30.994 9.8773 31.1111 9.59469 31.1111 9.3C 31.1111 9.00532 30.994 8.7227 30.7857 8.51433C 30.5773 8.30595 30.2947 8.18889 30 8.18889L 26.6667 8.18889L 26.6667 -9.32482e-07L 24.4444 -9.32482e-07L 24.4444 8.18889L 16.6667 8.18889L 16.6667 -9.32482e-07L 14.4444 -9.32482e-07L 14.4444 8.18889L 6.66667 8.18889L 6.66667 -9.32482e-07L 4.44444 -9.32482e-07L 4.44444 8.18889L 1.11111 8.18889C 0.816426 8.18889 0.533811 8.30595 0.325437 8.51433C 0.117063 8.7227 0 9.00532 0 9.3Z" fill="#E0AD0F" id="Vector_2" transform="translate(2.44336 16.5859)"></path>
+                                                        <path d="M 28.8889 0L 0 0L 0 2.22222L 28.8889 2.22222L 28.8889 0Z" fill="#E0AD0F" id="Vector_3" transform="translate(3.57812 12.5566)"></path>
+                                                        <path d="M 34.4444 0L 1.11111 0C 0.816426 0 0.533811 0.117062 0.325437 0.325436C 0.117063 0.53381 0 0.816426 0 1.11111C 0 1.4058 0.117063 1.68841 0.325437 1.89679C 0.533811 2.10516 0.816426 2.22222 1.11111 2.22222L 34.4444 2.22222C 34.7391 2.22222 35.0217 2.10516 35.2301 1.89679C 35.4385 1.68841 35.5556 1.4058 35.5556 1.11111C 35.5556 0.816426 35.4385 0.53381 35.2301 0.325436C 35.0217 0.117062 34.7391 0 34.4444 0Z" fill="#E0AD0F" id="Vector_4" transform="translate(0.224609 29.2246)"></path>
+                                                        <path d="M 12.2444 4.40798L 15.8111 4.40798L 8.35556 0.119088C 8.22043 0.041072 8.06714 -1.93955e-07 7.91111 -1.93955e-07C 7.75508 -1.93955e-07 7.6018 0.041072 7.46667 0.119088L 1.27157e-07 4.40798L 3.56667 4.40798L 7.9 1.91909L 12.2444 4.40798Z" fill="#E0AD0F" id="Vector_5" transform="translate(10.3691 5.46094)"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="caption m-t-8">
+                                    <span>I have a TajBank account</span>
+                                </div>
+                                <div class="icon-box">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="12" style="margin-top: 12px !important;" version="1.1" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none" id="Canvas">
+                                            <path d="M 7.56364 6.00132C 7.56364 6.22886 7.47469 6.43571 7.29678 6.60119L 1.515 11.7725C 1.3371 11.9173 1.11473 12 0.892352 12C 0.647738 12 0.425362 11.9173 0.247461 11.7518C -0.0861034 11.4208 -0.0861033 10.9037 0.269699 10.5727L 5.38435 6.00132L 0.269699 1.42992C -0.0861033 1.11964 -0.0861034 0.581831 0.247461 0.250869C 0.581025 -0.080092 1.1592 -0.0800921 1.515 0.230184L 7.29678 5.40146C 7.47469 5.56694 7.56364 5.77379 7.56364 6.00132Z" fill="#E0AD0F" id="XMLID 439"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+    
+                            <div class="select-options">
+                                <div class="icon-box">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="36" version="1.1" viewBox="0 0 41 36" width="41" xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none" id="Canvas">
+                                            <g id="Group 4.1">
+                                                <g id="Group 3">
+                                                    <g id="bank-line">
+                                                        <path d="M 1.7072 11.8222L 17.8183 2.56667L 33.9294 11.8222C 34.1834 11.9551 34.4788 11.9846 34.754 11.9048C 35.0293 11.825 35.263 11.6418 35.4064 11.3937C 35.5498 11.1456 35.5918 10.8517 35.5237 10.5733C 35.4555 10.295 35.2824 10.0537 35.0405 9.9L 17.8183 8.4771e-08L 0.596084 9.9C 0.4633 9.96946 0.34594 10.0651 0.251062 10.1811C 0.156185 10.2971 0.0857512 10.431 0.0439987 10.575C 0.00224618 10.7189 -0.0099623 10.8698 0.00810756 11.0185C 0.0261774 11.1673 0.0741524 11.3108 0.149146 11.4406C 0.22414 11.5703 0.324602 11.6836 0.44449 11.7735C 0.564378 11.8634 0.701214 11.9281 0.846765 11.9637C 0.992317 11.9994 1.14358 12.0052 1.29144 11.9809C 1.43931 11.9566 1.58073 11.9026 1.7072 11.8222Z" fill="#E0AD0F" id="Vector" transform="translate(0.181641 0.244141)"></path>
+                                                        <path d="M 28.8889 0L 0 0L 0 2.22222L 28.8889 2.22222L 28.8889 0Z" fill="#E0AD0F" id="Vector_2" transform="translate(3.57617 12.5566)"></path>
+                                                        <path clip-rule="evenodd" d="M 23.5898 0L 1.11133 0C 0.816406 0 0.533203 0.117188 0.326172 0.326172C 0.117188 0.533203 0 0.816406 0 1.11133C 0 1.40625 0.117188 1.6875 0.326172 1.89648C 0.533203 2.10547 0.816406 2.22266 1.11133 2.22266L 24.3848 2.22266C 24.0215 1.5332 23.752 0.785156 23.5898 0Z" fill="#E0AD0F" fill-rule="evenodd" id="Subtract" transform="translate(0.222656 29.2207)"></path>
+                                                        <path clip-rule="evenodd" d="M 0.326172 10.0859C 0.117188 9.87695 0 9.59375 0 9.30078C 0 9.00586 0.117188 8.72266 0.326172 8.51367C 0.533203 8.30664 0.816406 8.18945 1.11133 8.18945L 4.44531 8.18945L 4.44531 0L 6.66602 0L 6.66602 8.18945L 14.4453 8.18945L 14.4453 0L 16.666 0L 16.666 8.18945L 21.6484 8.18945C 21.4082 8.89258 21.2598 9.63672 21.2129 10.4102L 1.11133 10.4102C 0.816406 10.4102 0.533203 10.2949 0.326172 10.0859ZM 26.666 3.00586L 26.666 0L 24.4453 0L 24.4453 4.25781C 25.1133 3.73438 25.8594 3.31055 26.666 3.00586Z" fill="#E0AD0F" fill-rule="evenodd" id="Subtract_2" transform="translate(2.44336 16.5898)"></path>
+                                                        <g id="Group">
+                                                            <circle cx="7.94872" cy="7.94872" id="Ellipse" r="6.94872" stroke="#C99F19" stroke-width="2" transform="translate(24.666 20.0762)"></circle>
+                                                            <path d="M 7.32607 0.702137L 6.62393 1.89512e-08L 3.66303 2.9609L 0.702137 1.89512e-08L 1.89512e-08 0.702137L 2.9609 3.66303L 1.89512e-08 6.62393L 0.702137 7.32607L 3.66303 4.36517L 6.62393 7.32607L 7.32607 6.62393L 4.36517 3.66303L 7.32607 0.702137Z" fill="#E0AD0F" id="Vector_3" transform="translate(28.9531 24.3613)"></path>
+                                                        </g>
+                                                        <path d="M 12.2444 4.40798L 15.8111 4.40798L 8.35555 0.119088C 8.22043 0.041072 8.06714 -1.93955e-07 7.91111 -1.93955e-07C 7.75508 -1.93955e-07 7.6018 0.041072 7.46667 0.119088L 1.27157e-07 4.40798L 3.56667 4.40798L 7.9 1.91909L 12.2444 4.40798Z" fill="#E0AD0F" id="Vector_4" transform="translate(10.3672 5.45898)"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="caption m-t-8">
+                                    <span>I don't have a TajBank account</span>
+                                </div>
+                                <div class="icon-box">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="12" style="margin-top: 12px !important;" version="1.1" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none" id="Canvas">
+                                            <path d="M 7.56364 6.00132C 7.56364 6.22886 7.47469 6.43571 7.29678 6.60119L 1.515 11.7725C 1.3371 11.9173 1.11473 12 0.892352 12C 0.647738 12 0.425362 11.9173 0.247461 11.7518C -0.0861034 11.4208 -0.0861033 10.9037 0.269699 10.5727L 5.38435 6.00132L 0.269699 1.42992C -0.0861033 1.11964 -0.0861034 0.581831 0.247461 0.250869C 0.581025 -0.080092 1.1592 -0.0800921 1.515 0.230184L 7.29678 5.40146C 7.47469 5.56694 7.56364 5.77379 7.56364 6.00132Z" fill="#E0AD0F" id="XMLID 439"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                    <div class="entry-footer">
+                        <p class="m-t-20 text-center">
+                            Have a profile?
+                            <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                                <a>Log in</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <fbn-account-holder-onboarding>
+    <div class="sign-up-view welcome-message animated fadeInLeft slide opaque">
+            
+            <div class="slide-container for-onboarding">
+                
+                <!---->
+    
+                <!----><fbn-account-selection><div class="slide animated fadeInLeft">
+      <div class="entry">
+            <button class="back-action">
+                    <span class="icon">
+                        <i class="fa fa-chevron-left"></i>
+                    </span>
+                    <span class="text fw-sbold"> &nbsp;Back</span>
+                </button>
+        <div class="entry-header">
+          <h3>Sign up</h3>
+          <h4>Give us your account number so we can locate your profile. It’ll only take a minute.</h4>
+        </div>
+    
+        <div class="entry-body p-t-20">
+          <form autocomplete="off" class="m-0 animated ng-untouched ng-pristine ng-invalid" novalidate="">
+            <div class="">
+              <span class="text-danger fz-12">&nbsp;</span>
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="account-holder-account-number" maxlength="10" name="account-number" placeholder="Account number" required="" type="text">
+              </div>
+            </div>
+          </form>
+    
+        </div>
+    
+        <div class="entry-footer">
+          <div class="login-error-message">
+            <!---->
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">
+            <span>Continue</span>
+          </button>
+          <p class="m-t-20 text-center">
+            Have a profile?
+            <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                <a>Log in</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    </fbn-account-selection>
+    
+                <!---->
+    
+                <!---->
+    
+                <!---->
+    
+                <!---->
+    
+                <!---->
+    
+            </div>
+            
+    
+    
+        </div>
+        
+    </fbn-account-holder-onboarding>
+    
+            <fbn-non-account-holder-onboarding>
+    <div class="sign-up-view welcome-message animated fadeInLeft slide opaque">
+        
+        <div class="slide-container for-onboarding">
+            <!---->
+    
+            <!----><fbn-enter-bvn><div class="slide animated fadeInLeft">
+        <div class="entry">
+            <div class="back-action">
+                <span class="icon">
+                    <i class="fa fa-chevron-left"></i>
+                </span>
+                <span class="text fw-sbold"> &nbsp;Back</span>
+            </div>
+            <div class="entry-header">
+                <h3>Enter BVN</h3>
+                <h4>Give us your bvn so we can locate your profile. It’ll only take a minute.</h4>
+            </div>
+    
+            <div class="entry-body p-t-20">
+                <form autocomplete="off" class="m-0 animated ng-untouched ng-pristine ng-invalid" novalidate="">
+                    <div class="">
+                        <span class="text-danger fz-12">&nbsp;</span>
+                        <div class="input-cont input icon">
+                            <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="non-account-holder-bvn" maxlength="11" name="non-account-holder-bvn" placeholder="Enter BVN" required="" type="text">
+                        </div>
+                    </div>
+                </form>
+    
+            </div>
+    
+            <div class="entry-footer">
+                <div class="login-error-message">
+                    <!---->
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">
+                    <span>Continue</span>
+                </button>
+                <p class="m-t-20 text-center">
+                    Have a profile?
+                    <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                        <a>Log in</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div></fbn-enter-bvn>
+    
+            <!---->
+    
+            <!---->
+    
+            <!---->
+    
+            <!---->
+    
+        </div>
+        
+    
+    </div>
+    </fbn-non-account-holder-onboarding>
+    
+        </div>
+    
+    </div></fbn-onboarding-root>
+                                        
+    
+                                        
+                                        <fbn-forgot-password-root><div class="forgot-password-view welcome-message slide animated fadeInLeft opaque">
+    
+      <div class="slide-container">
+    
+        <div class="select-recovery-options slide animated fadeInLeft">
+          <div class="entry">
+            <div class="entry-header">
+                <h3>Select recovery option</h3>
+                <h4>Click one of the options below to recover details</h4>
+            </div>
+    
+            <div class="entry-body">
+              <div>
+                <div class="select-options">
+                  <div class="icon-box">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="40" version="1.1" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" id="Canvas">
+                        <path clip-rule="evenodd" d="M 26.25 8.75C 26.25 13.5762 22.3262 17.5 17.5 17.5C 12.6738 17.5 8.75 13.5762 8.75 8.75C 8.75 3.92383 12.6738 0 17.5 0C 22.3262 0 26.25 3.92383 26.25 8.75ZM 0 32.75C 0 24.8008 7.19727 19.25 17.5 19.25C 27.8027 19.25 35 24.8008 35 32.75L 35 35L 0 35L 0 32.75Z" fill="#E0AD0F" fill-rule="evenodd" id="Combined Shape" transform="scale(1)"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="caption">
+                    <span>Recover Username</span>
+                  </div>
+                  <div class="icon-box">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="12" version="1.1" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" id="Canvas">
+                        <path d="M 7.56364 6.00132C 7.56364 6.22886 7.47469 6.43571 7.29678 6.60119L 1.515 11.7725C 1.3371 11.9173 1.11473 12 0.892352 12C 0.647738 12 0.425362 11.9173 0.247461 11.7518C -0.0861034 11.4208 -0.0861033 10.9037 0.269699 10.5727L 5.38435 6.00132L 0.269699 1.42992C -0.0861033 1.11964 -0.0861034 0.581831 0.247461 0.250869C 0.581025 -0.080092 1.1592 -0.0800921 1.515 0.230184L 7.29678 5.40146C 7.47469 5.56694 7.56364 5.77379 7.56364 6.00132Z" fill="#E0AD0F" id="XMLID 439"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+    
+                <div class="select-options">
+                  <div class="icon-box">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="40" version="1.1" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" id="Canvas">
+                        <path clip-rule="evenodd" d="M 7.5 0C 10.0566 0 12.293 1.66211 13.1367 4.09961C 13.4141 4.90039 13.0059 5.78125 12.2266 6.06445C 11.4453 6.34961 10.5879 5.93164 10.3105 5.13086C 9.88672 3.90625 8.77148 3.07617 7.5 3.07617C 5.84375 3.07617 4.5 4.45508 4.5 6.1543L 4.5 9.23047L 13.5 9.23047C 14.3281 9.23047 15 9.91992 15 10.7695L 15 18.4609C 15 19.3105 14.3281 20 13.5 20L 1.5 20C 0.671875 20 0 19.3105 0 18.4609L 0 10.7695C 0 9.91992 0.671875 9.23047 1.5 9.23047L 1.5 6.1543C 1.5 2.75586 4.18555 0 7.5 0Z" fill="#E0AD0F" fill-rule="evenodd" id="Combined Shape" transform="scale(2)"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="caption">
+                    <span>Reset Password</span>
+                  </div>
+                  <div class="icon-box">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="12" version="1.1" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" id="Canvas">
+                        <path d="M 7.56364 6.00132C 7.56364 6.22886 7.47469 6.43571 7.29678 6.60119L 1.515 11.7725C 1.3371 11.9173 1.11473 12 0.892352 12C 0.647738 12 0.425362 11.9173 0.247461 11.7518C -0.0861034 11.4208 -0.0861033 10.9037 0.269699 10.5727L 5.38435 6.00132L 0.269699 1.42992C -0.0861033 1.11964 -0.0861034 0.581831 0.247461 0.250869C 0.581025 -0.080092 1.1592 -0.0800921 1.515 0.230184L 7.29678 5.40146C 7.47469 5.56694 7.56364 5.77379 7.56364 6.00132Z" fill="#E0AD0F" id="XMLID 439"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+            <div class="entry-footer">
+              <p class="m-t-20 text-center">
+                    <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                        <a>Back to Log in</a>
+                    </span>
+              </p>
+            </div>
+          </div>
+        </div>
+    
+    
+          <fbn-recover-username-root><div class="reset-password-view welcome-message slide animated fadeInLeft opaque">
+    
+      <div class="slide-container">
+        <!---->
+    
+        <!----><fbn-enter-account-email><div class="slide animated fadeInLeft">
+      <div class="entry">
+            <button class="back-action">
+                <span class="icon">
+                    <i class="fa fa-chevron-left"></i>
+                </span>
+                <span class="text fw-sbold"> &nbsp;Back</span>
+            </button>
+        <div class="entry-header">
+          <h3>Recover username</h3>
+          <h4>Enter your account number and the email tied to your account recover your username</h4>
+        </div>
+    
+        <div class="entry-body flex-center">
+          <form autocomplete="off" class="m-0 animated fadeIn ng-untouched ng-pristine ng-invalid" novalidate="">
+            <div class="">
+              <span class="text-danger fz-12">&nbsp;</span>
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="recover-username-account" maxlength="10" name="account-number" placeholder="Account number" required="" type="text">
+              </div>
+            </div>
+    
+            <div class="">
+              <span class="text-danger fz-12">&nbsp;</span>
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="recover-username-email" name="email" placeholder="Email" required="" type="text">
+              </div>
+            </div>
+          </form>
+    
+        </div>
+    
+        <div class="entry-footer">
+          <div class="login-error-message">
+            <!---->
+          </div>
+          <button class="btn btn-primary btn-block" id="" type="submit">
+            <span>Next</span>
+          </button>
+          <p class="m-t-20 text-center">
+            <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                <a>Back to Log in</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    </fbn-enter-account-email>
+    
+        <!---->
+    
+        <!---->
+    
+        <!---->
+    
+      </div>
+    
+    </div>
+    </fbn-recover-username-root>
+    
+          <fbn-reset-password><div class="reset-password-view welcome-message slide animated fadeInLeft opaque">
+    
+      <div class="slide-container">
+    
+            <!---->
+    
+        <!----><fbn-reset-password-enter-username><div class="slide animated fadeInLeft">
+      <div class="entry">
+            <button class="back-action">
+                <span class="icon">
+                    <i class="fa fa-chevron-left"></i>
+                </span>
+                <span class="text fw-sbold"> &nbsp;Back</span>
+            </button>
+        <div class="entry-header">
+          <h3>Reset Password</h3>
+          <h4>Enter your username to get password reset code</h4>
+        </div>
+    
+        <div class="entry-body">
+          <form autocomplete="off" class="login-form animated fadeIn ng-untouched ng-pristine ng-invalid" novalidate="">
+            <div class="">
+    
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="username-forgot-password" name="Username" placeholder="Username" required="" type="text">
+              </div>
+    
+              <div class="input-cont left-addon input icon inner-addon">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" version="1.1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" id="Canvas">
+                    <path clip-rule="evenodd" d="M 15 5C 15 7.75781 12.7578 10 10 10C 7.24219 10 5 7.75781 5 5C 5 2.24219 7.24219 0 10 0C 12.7578 0 15 2.24219 15 5ZM 0 18.7148C 0 14.1719 4.11328 11 10 11C 15.8867 11 20 14.1719 20 18.7148L 20 20L 0 20L 0 18.7148Z" fill="#273D50" fill-opacity="0.249434" fill-rule="evenodd" id="Combined Shape"></path>
+                  </g>
+                </svg>
+                <input autocomplete="off" class="form-control ng-untouched ng-pristine ng-invalid" id="accountNumber-forgot-password" maxlength="10" name="accountNumber" placeholder="Account Number" required="" type="text">
+              </div>
+            </div>
+          </form>
+    
+        </div>
+    
+        <div class="entry-footer">
+          <div class="login-error-message">
+            <!---->
+          </div>
+          <button class="btn btn-primary btn-block" id="" type="submit">
+            <span>Next</span>
+          </button>
+          <p class="m-t-20 text-center">
+            <span class="color-primary fw-sbold" style="font-weight: bold !important">
+                <a>Back to Log in</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    </fbn-reset-password-enter-username>
+    
+        <!---->
+    
+        <!---->
+    
+        <!---->
+    
+        <!---->
+    
+      </div>
+    
+    </div>
+    </fbn-reset-password>
+    
+      </div>
+    
+    </div>
+    </fbn-forgot-password-root>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <img id="i1" class="xkm" style="width:260px; height:464px;padding-right:10px;" src="/cbrd/images/pencom_big.png">
+</body>
+</html>

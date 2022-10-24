@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions</title>
+</head>
+<!-- What are conditional statements?
+Conditional statements are methods that are used to perform ceertain actions based 
+on a certain condition. For
+IF is used to specify a block of code to be executed if the condition is true
+ELSE is used to specify a block of code to be executed if the condition is false
+ELSE IF is used to specify a condition test, if the first condition is false
+SWITCH is used to specify alternative blocks of code to be executed -->
+<body>
+    <p>Display hello if the hour is less than 18:00</p>
+    <!-- Example of an if statement -->
+    <p id="if-statements"></p>
+    <script>
+        if (new Date().getHours() < 17) {
+            document.getElementById("if-statements").innerHTML ="Hello";
+        }
+    </script>
+     <!--An example of IF and ELSE-->
+     <P>This is for the if and else statement.</P>
+     <p id="demo-if-else">This is for the else statement</p>
+<script>
+   /*
+   Implementing blockscopeed variables outside an if/else block still works
+   unlike traditional function in JS */
+   // Define hour and implement a date method
+   const hour = new Date().getHours();
+   // Define greeting
+   var greeting;
+
+   /* This if and else block will greet the individual if the current hour is
+   less than 17:00 else it will not greet and return the string within else */
+   if (hour < 17) {
+    greeting = "Hello";
+   } else {
+    greeting = "I will not greet you";
+   }
+   document.getElementById("demo-if-else").innerHTML = greeting;
+   </script>
+   <p>This is one last example to explain if and else conditions</p>
+   <p id="last-example"></p>
+   <script>
+    const greet = function() {
+        const time = new Date().getHours;
+    let greeting;
+    if (time < 11){
+        //This will be exetuted if the condition is true and only true
+        greeting = "Good day";
+    } else if (time > 20){ /* This would be executed if the fiirst condition is 
+        false and the second condition is true */
+        greeting = "Good day, my friend";
+
+    } else {
+        greeting = "I cannot greet you, I am AFRAID.";
+        /* This would be executed if both conditions are false */
+    }
+    document.getElementById("last-example").innerHTML = greeting;}
+    
+   </script>
+
+</body>
+</html>

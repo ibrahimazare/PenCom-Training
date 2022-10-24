@@ -31,8 +31,8 @@ rem - root element font size
 
 header{
     background-color: none;
-width: 100%;
-height: 65px;
+    width: 100%;
+    height: 65px;
 }
 /* We can add a selector on the same line with another
 with another so it becomes a child of the parent class */
@@ -69,8 +69,8 @@ nav .right-section img {
 }
 
 main{
-    background-color: none;
     margin-top: 40px;
+    background-color: gray;
     text-align: center;
 }
 
