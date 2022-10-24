@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css" />
+    <title>RPS Game</title>
+</head>
+<!-- Rock, Paper, scissors Game
+1. Have a function called game() that will contain all logic
+2. Define variables such as playscores, and computer scores
+3. create playgame() that will use the DOM to work with our buttons
+4. Create a forEach LOOP
+5. Create a function winner() and gameOver()
+6. call playgame() into the main game() function
+7. call game() function at the end of the file -->
+<body>
+    <section class="Game">
+        <div class="title">
+            <div class="score">
+                <div class="playerScore">
+                    <h3>Player</h3>
+                    <p class="player-count count"></p>
+                </div>
+            <div class="computerScore">
+                <h3>Computer</h3>
+                <p class="computer-count count"></p>
+            </div>
+            </div>
+            <div class="move">Choose your movies:</div>
+            <div class="movisLeft">Movies Remaining</div>
+        <div class="options">
+            <div class="rock"></div>
+            <div class="paper"></div>
+            <div class="scissors"></div>
+        </div>
+        <div class="result"></div>
+        <button class="reload"></button>
+    </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
