@@ -14,7 +14,7 @@
     background: whitesmoke;
     color: var(--green);
 }
-.Game {
+.game {
     display: flex;
     flex-direction: column;
     /* viewport Height */
@@ -35,6 +35,12 @@
     justify-content: space-evenly;
 }
 /* displaying three buttons in one line */
+
+.player-count, .computer-count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
 .options{
     display: flex;
     width: 50vw;

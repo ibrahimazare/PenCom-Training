@@ -16,20 +16,22 @@
 6. call playgame() into the main game() function
 7. call game() function at the end of the file -->
 <body>
-    <section class="Game">
+    <section class="game">
         <div class="title">
             <div class="score">
                 <div class="playerScore">
                     <h3>Player</h3>
-                    <p class="player-count count"></p>
+                    <p class="player-count-count">0</p>
                 </div>
             <div class="computerScore">
                 <h3>Computer</h3>
-                <p class="computer-count count"></p>
+                <p class="computer-count-count">0</p>
             </div>
             </div>
             <div class="move">Choose your moves:</div>
-            <div class="movisLeft">Movies Remaining</div>
+            <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+        <!-- <div class="movisLeft">Movies Remaining</div>-->   
         <div class="options">
             <div class="rock"></div>
             <div class="paper"></div>
@@ -39,6 +41,6 @@
         <button class="reload"></button>
     </div>
     </section>
-    <script src="app.js"></script>
+    <script src="grayo.js"></script>
 </body>
 </html>
